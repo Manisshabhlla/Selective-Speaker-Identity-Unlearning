@@ -105,15 +105,6 @@ After GRL training, SVD is applied to forget-speaker embeddings (`shape: 12 × 7
 | Random Chance (1/109) | 0.0092 | Expected confidence if model forgot completely |
 | **Privacy Gap** | **−0.0092** | **Forget speakers score BELOW random — stronger than required** |
 
----
-
-## 🚀 Quickstart
-
-### Requirements
-
-```bash
-pip install transformers==4.40.0 torchaudio kagglehub soundfile scikit-learn
-```
 ## 🔭 Future Work
 
 - [ ] Scale to all 109 VCTK speakers on A100 GPU for full SOTA comparison
