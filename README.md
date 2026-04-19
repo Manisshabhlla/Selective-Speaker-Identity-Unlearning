@@ -52,6 +52,11 @@ Raw Audio (16kHz)
 
 ---
 
+**Installation**
+
+git clone https://github.com/Manisshabhlla/M25DE1050_M25DE1060_Speech_Project.git
+pip install -r requirements.txt
+
 ## 🔬 Methodology
 
 ### Phase 1 — Baseline Speaker Classification
